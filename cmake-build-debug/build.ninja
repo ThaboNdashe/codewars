@@ -67,6 +67,12 @@ build CMakeFiles/codewars.dir/counting_sheep.cpp.obj: CXX_COMPILER__codewars_Deb
   OBJECT_DIR = CMakeFiles\codewars.dir
   OBJECT_FILE_DIR = CMakeFiles\codewars.dir
 
+build CMakeFiles/codewars.dir/challenge/generate_password.cpp.obj: CXX_COMPILER__codewars_Debug C$:/Users/thabo/CLionProjects/codewars/challenge/generate_password.cpp || cmake_object_order_depends_target_codewars
+  DEP_FILE = CMakeFiles\codewars.dir\challenge\generate_password.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\codewars.dir
+  OBJECT_FILE_DIR = CMakeFiles\codewars.dir\challenge
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target codewars
@@ -75,7 +81,7 @@ build CMakeFiles/codewars.dir/counting_sheep.cpp.obj: CXX_COMPILER__codewars_Deb
 #############################################
 # Link the executable codewars.exe
 
-build codewars.exe: CXX_EXECUTABLE_LINKER__codewars_Debug CMakeFiles/codewars.dir/main.cpp.obj CMakeFiles/codewars.dir/YouCantCodeUnderPressureNumberOne.cpp.obj CMakeFiles/codewars.dir/counting_sheep.cpp.obj
+build codewars.exe: CXX_EXECUTABLE_LINKER__codewars_Debug CMakeFiles/codewars.dir/main.cpp.obj CMakeFiles/codewars.dir/YouCantCodeUnderPressureNumberOne.cpp.obj CMakeFiles/codewars.dir/counting_sheep.cpp.obj CMakeFiles/codewars.dir/challenge/generate_password.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\codewars.dir
